@@ -1,0 +1,11 @@
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Domain\bin\Debug\net8.0\CRMApp.Domain.deps.json
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Domain\bin\Debug\net8.0\CRMApp.Domain.dll
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Domain\bin\Debug\net8.0\CRMApp.Domain.pdb
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Domain\obj\Debug\net8.0\CRMApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Domain\obj\Debug\net8.0\CRMApp.Domain.AssemblyInfoInputs.cache
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Domain\obj\Debug\net8.0\CRMApp.Domain.AssemblyInfo.cs
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Domain\obj\Debug\net8.0\CRMApp.Domain.csproj.CoreCompileInputs.cache
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Domain\obj\Debug\net8.0\CRMApp.Domain.dll
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Domain\obj\Debug\net8.0\refint\CRMApp.Domain.dll
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Domain\obj\Debug\net8.0\CRMApp.Domain.pdb
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Domain\obj\Debug\net8.0\ref\CRMApp.Domain.dll

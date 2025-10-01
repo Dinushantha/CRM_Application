@@ -1,0 +1,17 @@
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Infrastucture\bin\Debug\net8.0\CRMApp.Infrastucture.deps.json
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Infrastucture\bin\Debug\net8.0\CRMApp.Infrastucture.runtimeconfig.json
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Infrastucture\bin\Debug\net8.0\CRMApp.Infrastucture.dll
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Infrastucture\bin\Debug\net8.0\CRMApp.Infrastucture.pdb
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Infrastucture\bin\Debug\net8.0\CRMApp.Domain.dll
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Infrastucture\bin\Debug\net8.0\CRMApp.Domain.pdb
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Infrastucture\obj\Debug\net8.0\CRMApp.Infrastucture.csproj.AssemblyReference.cache
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Infrastucture\obj\Debug\net8.0\CRMApp.Infrastucture.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Infrastucture\obj\Debug\net8.0\CRMApp.Infrastucture.AssemblyInfoInputs.cache
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Infrastucture\obj\Debug\net8.0\CRMApp.Infrastucture.AssemblyInfo.cs
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Infrastucture\obj\Debug\net8.0\CRMApp.Infrastucture.csproj.CoreCompileInputs.cache
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Infrastucture\obj\Debug\net8.0\CRMApp.I.05BC3B85.Up2Date
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Infrastucture\obj\Debug\net8.0\CRMApp.Infrastucture.dll
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Infrastucture\obj\Debug\net8.0\refint\CRMApp.Infrastucture.dll
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Infrastucture\obj\Debug\net8.0\CRMApp.Infrastucture.pdb
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Infrastucture\obj\Debug\net8.0\CRMApp.Infrastucture.genruntimeconfig.cache
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Infrastucture\obj\Debug\net8.0\ref\CRMApp.Infrastucture.dll
