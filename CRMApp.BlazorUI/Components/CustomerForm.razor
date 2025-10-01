@@ -1,0 +1,67 @@
+﻿@using CRMApp.BlazorUI.Models
+
+<EditForm Model="@Customer" OnValidSubmit="@OnSave">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-2">
+        <label>First Name</label>
+        <InputText class="form-control" @bind-Value="Customer.FirstName" />
+    </div>
+
+    <div class="mb-2">
+        <label>Last Name</label>
+        <InputText class="form-control" @bind-Value="Customer.LastName" />
+    </div>
+
+    <div class="mb-2">
+        <label>Email</label>
+        <InputText class="form-control" @bind-Value="Customer.Email" />
+    </div>
+
+    <div class="mb-2">
+        <label>Phone</label>
+        <InputText class="form-control" @bind-Value="Customer.PhoneNumber" />
+    </div>
+
+    <div class="mb-2">
+        <label>Address</label>
+        <InputText class="form-control" @bind-Value="Customer.Address" />
+    </div>
+
+    <div class="mb-2">
+        <label>City</label>
+        <InputText class="form-control" @bind-Value="Customer.City" />
+    </div>
+
+    <div class="mb-2">
+        <label>State</label>
+        <InputText class="form-control" @bind-Value="Customer.State" />
+    </div>
+
+    <div class="mb-2">
+        <label>Country</label>
+        <InputText class="form-control" @bind-Value="Customer.Country" />
+    </div>
+
+    <button type="submit" class="btn btn-primary me-2">
+        @(Customer.AccountId == 0 ? "Add" : "Update")
+    </button>
+    <button type="button" class="btn btn-secondary" @onclick="OnCancel">Cancel</button>
+</EditForm>
+
+@code {
+    [Parameter] public CustomerDto Customer { get; set; } = new();
+    [Parameter] public EventCallback<CustomerDto> OnValidSave { get; set; }
+    [Parameter] public EventCallback OnCancelClicked { get; set; }
+
+    private async Task OnSave()
+    {
+        await OnValidSave.InvokeAsync(Customer);
+    }
+
+    private async Task OnCancel()
+    {
+        await OnCancelClicked.InvokeAsync();
+    }
+}

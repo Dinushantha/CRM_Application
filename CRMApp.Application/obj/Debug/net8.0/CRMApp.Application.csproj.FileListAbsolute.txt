@@ -1,0 +1,17 @@
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Application\obj\Debug\net8.0\CRMApp.Application.csproj.AssemblyReference.cache
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Application\obj\Debug\net8.0\CRMApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Application\obj\Debug\net8.0\CRMApp.Application.AssemblyInfoInputs.cache
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Application\obj\Debug\net8.0\CRMApp.Application.AssemblyInfo.cs
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Application\obj\Debug\net8.0\CRMApp.Application.csproj.CoreCompileInputs.cache
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Application\bin\Debug\net8.0\CRMApp.Application.deps.json
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Application\bin\Debug\net8.0\CRMApp.Application.dll
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Application\bin\Debug\net8.0\CRMApp.Application.pdb
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Application\bin\Debug\net8.0\CRMApp.Domain.dll
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Application\bin\Debug\net8.0\CRMApp.Infrastucture.dll
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Application\bin\Debug\net8.0\CRMApp.Domain.pdb
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Application\bin\Debug\net8.0\CRMApp.Infrastucture.pdb
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Application\obj\Debug\net8.0\CRMApp.A.1C383DFF.Up2Date
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Application\obj\Debug\net8.0\CRMApp.Application.dll
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Application\obj\Debug\net8.0\refint\CRMApp.Application.dll
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Application\obj\Debug\net8.0\CRMApp.Application.pdb
+D:\MyWork\TechnicalTest\CRM_Application\CRMApp.Application\obj\Debug\net8.0\ref\CRMApp.Application.dll

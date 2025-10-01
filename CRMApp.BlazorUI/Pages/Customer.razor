@@ -1,0 +1,118 @@
+﻿@page "/customers"
+@using CRMApp.BlazorUI.Models
+@using CRMApp.BlazorUI.Services
+@inject CustomerService CustomerService
+
+<h3>Customer Accounts</h3>
+
+<div class="row">
+    <div class="col-md-4">
+        <CustomerForm Customer="customerModel"
+                      OnValidSave="SaveCustomer"
+                      OnCancelClicked="ResetForm" />
+    </div>
+
+    <div class="col-md-8">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Account ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>City</th>
+                    <th>Country</th>
+                    <th>Date Created</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (customers is null)
+                {
+                    <tr><td colspan="8">Loading...</td></tr>
+                }
+                else if (!customers.Any())
+                {
+                    <tr><td colspan="8">No customers found</td></tr>
+                }
+                else
+                {
+                    @foreach (var cust in customers)
+                    {
+                        <tr>
+                            <td>@cust.AccountId</td>
+                            <td>@cust.FirstName @cust.LastName</td>
+                            <td>@cust.Email</td>
+                            <td>@cust.PhoneNumber</td>
+                            <td>@cust.City</td>
+                            <td>@cust.Country</td>
+                            <td>@cust.DateCreated.ToString("yyyy-MM-dd")</td>
+                            <td>
+                                <button class="btn btn-sm btn-warning me-1" @onclick="() => EditCustomer(cust)">Edit</button>
+                                <button class="btn btn-sm btn-danger" @onclick="() => DeleteCustomer(cust.AccountId)">Delete</button>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@code {
+    private List<CustomerDto>? customers;
+    private CustomerDto customerModel = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadCustomers();
+    }
+
+    private async Task LoadCustomers()
+    {
+        customers = await CustomerService.GetCustomersAsync();
+    }
+
+    private async Task SaveCustomer(CustomerDto customer)
+    {
+        if (customer.AccountId == 0)
+        {
+            await CustomerService.AddCustomerAsync(customer);
+        }
+        else
+        {
+            await CustomerService.UpdateCustomerAsync(customer);
+        }
+
+        await LoadCustomers();
+        ResetForm();
+    }
+
+    private void EditCustomer(CustomerDto cust)
+    {
+        customerModel = new CustomerDto
+        {
+            AccountId = cust.AccountId,
+            FirstName = cust.FirstName,
+            LastName = cust.LastName,
+            Email = cust.Email,
+            PhoneNumber = cust.PhoneNumber,
+            Address = cust.Address,
+            City = cust.City,
+            State = cust.State,
+            Country = cust.Country,
+            DateCreated = cust.DateCreated
+        };
+    }
+
+    private async Task DeleteCustomer(int id)
+    {
+        await CustomerService.DeleteCustomerAsync(id);
+        await LoadCustomers();
+    }
+
+    private void ResetForm()
+    {
+        customerModel = new CustomerDto();
+    }
+}
