@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "LG9Is67lxSlxtpQ3Bmq8IdE07xBskc93QnAjqNLuDgA=",
+  "Source": "CRMApp.API",
+  "BasePath": "_content/CRMApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
